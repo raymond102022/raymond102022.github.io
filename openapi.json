@@ -1181,13 +1181,16 @@
                     "type": "integer"
                   },
                   "items": {
-                    "type": "object",
-                    "properties": {
-                      "productId": {
-                        "type": "integer"
-                      },
-                      "amount": {
-                        "type": "integer"
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "productId": {
+                          "type": "integer"
+                        },
+                        "amount": {
+                          "type": "integer"
+                        }
                       }
                     }
                   }
