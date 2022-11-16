@@ -654,6 +654,9 @@
                   "value": {
                     "type": "number"
                   },
+                  "available": {
+                    "type": "boolean"
+                  },
                   "startAt": {
                     "type": "string",
                     "format": "date"
@@ -1553,6 +1556,9 @@
           },
           "value": {
             "type": "number"
+          },
+          "available": {
+            "type": "boolean"
           },
           "startAt": {
             "type": "string",
