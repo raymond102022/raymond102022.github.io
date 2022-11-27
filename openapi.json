@@ -1188,6 +1188,12 @@
                         "productId": {
                           "type": "integer"
                         },
+                        "color": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "string"
+                        },
                         "amount": {
                           "type": "integer"
                         }
