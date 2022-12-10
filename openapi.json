@@ -872,6 +872,9 @@
                       "PRODUCT"
                     ]
                   },
+                  "productId": {
+                    "type": "string"
+                  },
                   "type": {
                     "type": "string",
                     "enum": [
