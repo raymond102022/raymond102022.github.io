@@ -644,6 +644,9 @@
                       "PRODUCT"
                     ]
                   },
+                  "productId": {
+                    "type": "string"
+                  },
                   "type": {
                     "type": "string",
                     "enum": [
@@ -1034,9 +1037,6 @@
                 "properties": {
                   "amount": {
                     "type": "integer"
-                  },
-                  "available": {
-                    "type": "boolean"
                   }
                 }
               }
